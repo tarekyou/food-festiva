@@ -4,6 +4,9 @@ const BundleAnalyzerPlugin =
   require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 
 module.exports = {
+  devServer: {
+    static: "./",
+  },
   //   entry: "./assets/js/script.js",
   entry: {
     app: "./assets/js/script.js",
